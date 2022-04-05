@@ -1,37 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World! Dhumil");
+Console.WriteLine("Hello, World!");
 
-// We want to write a program which adds two numbers.
-// <data-type> <variable name> = <value>
-// variable Name : shouldnot start with number. should not start with wild card characters (`, ~, .- +)
+//type casting
+// implicit type casting
+// char -> int -> long -> float -> double
 
-int a = 2;
-int b = 3; 
+// explicit type casting
+// double -> float -> long -> int -> char
 
-// arimatica operations such as  +, -, /, * , %
+int b = 3;
 
-int c = a + b; 
+int a = 'a';
+float c = 'a';
 
-c = a - b;
+char d = (char) 5.5;
 
-Console.WriteLine(c);
-
-float d = 1.5f;
-float e = 5f; // 5.000000000
-
-Console.WriteLine(d + e);
-
-//Logical operators. (&& , || , == ,>, <, >=, <=)
-bool f1 = true;
-bool f2 = false;
-
-char c1 = 'a';
-char c2 = 'b';
-
-Console.WriteLine(c1);
-
-string s1 = "Dhumil";
-string s2 = "Katrina";
-
-Console.WriteLine(s1 + " -> " + s2  + a);
+Console.WriteLine(d);
