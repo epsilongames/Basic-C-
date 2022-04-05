@@ -2,36 +2,15 @@
 
 Console.WriteLine("Hello, World! Dhumil");
 
-// We want to write a program which adds two numbers.
-// <data-type> <variable name> = <value>
-// variable Name : shouldnot start with number. should not start with wild card characters (`, ~, .- +)
+//variable declaration.
+float a;
 
-int a = 2;
-int b = 3; 
+// variable initilized
+a = 2;
 
-// arimatica operations such as  +, -, /, * , %
+float b = 3;
 
-int c = a + b; 
-
-c = a - b;
-
-Console.WriteLine(c);
-
-float d = 1.5f;
-float e = 5f; // 5.000000000
-
-Console.WriteLine(d + e);
-
-//Logical operators. (&& , || , == ,>, <, >=, <=)
-bool f1 = true;
-bool f2 = false;
-
-char c1 = 'a';
-char c2 = 'b';
-
-Console.WriteLine(c1);
-
-string s1 = "Dhumil";
-string s2 = "Katrina";
-
-Console.WriteLine(s1 + " -> " + s2  + a);
+Console.WriteLine(a + b);
+Console.WriteLine(a - b);
+Console.WriteLine(a * b);
+Console.WriteLine(a / b);
