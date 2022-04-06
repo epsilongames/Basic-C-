@@ -2,37 +2,27 @@
 
 Console.WriteLine("Hello World!");
 
-// Operators
-// Arithmatic operator -> +, -, /, *, %, ++, --
-// Assignment operator -> =, += , -=, *=, /=
-// Comparision operator -> >, < ,>=, <= , ==
-// Logical operator -> &&, ||, !
+int a1 = 10;
+int a2 = 5;
+//String interpolation
+string s1 = $"{a1} and {a2} sum is ";
+string s2 = "Darshan";
 
-int a = 1;
-int b = 2;
+Console.WriteLine(s1.Length);
+Console.WriteLine(s1.ToUpper());
+Console.WriteLine(s1.ToLower());
 
-//a = a + 1;
-//b++;
+Console.WriteLine(s1 + (a1 + a2));
+Console.WriteLine(string.Concat(s1, s2));
 
-//a = a - 1;
-//b--;
+//String access
+string s3 = "DarshanPatel";
+Console.WriteLine(s3[3]);
+Console.WriteLine(s3.IndexOf('h'));
+Console.WriteLine(s3.Substring(4, 4));
 
-a += 5; // a = a + 5;
-b *= 2; // b = b * 2;
+//Escape caharacters -> \, \n, \t
 
-bool x = a <= b;
+string s4 = "my name is \"xyz\". \nI am C#Developer.";
+Console.WriteLine(s4);
 
-a = 1;
-b = 1;
-
-bool y = a == b;
-
-bool and = x && y;
-bool or = x || y;
-bool not = !and;
-
-Console.WriteLine("X : " + x);
-Console.WriteLine("y : " + y);
-Console.WriteLine("and : " + and);
-Console.WriteLine("or: " + or);
-Console.WriteLine("not : " + not);
